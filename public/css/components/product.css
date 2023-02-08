@@ -1,0 +1,35 @@
+.product{
+    width: 100%;
+    top: 35%;
+    position: relative;
+    text-align: center;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+}
+
+.cards.active{
+    animation: fadeInAnimation 5s 1;
+}
+
+.cards .product-card {
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cards .product-card img {
+    border-radius: 10px;
+    background: #000000;
+    box-shadow: rgba(0, 0, 0, 1) 0px 22px 70px 4px;
+}
+
+.product-card .card-title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}

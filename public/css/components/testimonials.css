@@ -1,0 +1,87 @@
+.testimonials {
+    width: 100%;
+    top: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.sec-heading h6 {
+    color: rgba(15, 155, 15, 1);
+    font-size: 55px;
+}
+
+.single-box {
+    border: 1px solid rgba(15, 155, 15, 1);
+    border-radius: 50px;
+    color: rgba(15, 155, 15, 1);
+    overflow: hidden;
+    background-color: #000000
+}
+
+.info-area {
+    padding: 0 20px 45px;
+}
+
+.img-area {
+    overflow: hidden;
+    padding: 15px 0 15px;
+}
+
+.img-area img {
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    max-width: 230px;
+}
+
+.single-box:hover img {
+    transform: scale(1.1);
+}
+
+.info-area i {
+    display: inline-block;
+    color: rgba(15, 155, 15, 1);
+    margin: 0 4px;
+}
+
+.info-area h4 {
+    font-weight: 600;
+}
+
+.info-area h5 {
+    color: rgba(15, 155, 15, 1);
+    margin: 10px 0 0;
+    font-weight: 600;
+}
+
+.testimonial-slider {
+    margin-top: 20px;
+}
+
+.testimonial-slider .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    text-align: center;
+    width: 100%;
+}
+
+.testimonial-slider button.owl-dot {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 6px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.testimonial-slider .owl-dot.active {
+    background-color: rgba(15, 155, 15, 1);
+}
+
+.move-animation {
+    position: relative;
+    animation: moveImgAnimation 2s ease-in-out infinite;
+}

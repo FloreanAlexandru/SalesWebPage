@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Laravel Web Page</title>
+
+        <link type="text/css" href="{{ asset('/css/components/footer.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="footer">
+            <div class="column-info">
+                <h3>Shipping & Payments</h3>
+                <ul>
+                    <li><a href="https://www.payment.com/">Pay cash or card</a></li>
+                    <li><a href="https://www.shipping.com/">Shipping process</a></li>
+                    <li><a href="https:/www.shippingareas.com/">Where do we ship?</a></li>
+                </ul>
+            </div>
+            <div class="column-info">
+                <h3>Careers</h3>
+                <ul>
+                    <li><a href="https://www.jobopenings.com/">Job openings</a></li>
+                    <li><a href="https://www.employee.com/">Employee success</a></li>
+                    <li><a href="https://www.benefits.com/">Benefits</a></li>
+                </ul>
+            </div>
+            <div class="container-info">
+                <form id="footer-form" class="newsletter">
+                    <div class="container-newsletter">
+                        <h2>Subscribe to our Newsletter</h2>
+                    </div>
+                    <div class="container-newsletter">
+                        <input id="newsletter-name" type="text" placeholder="Name" name="name" required>
+                        <input id="newsletter-email" type="text" placeholder="Email address" name="mail" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                        </label>
+                    </div>
+                    <div class="container-newsletter">
+                        <input class="submit-btn" type="submit" value="Subscribe" onclick="handleForm()">
+                    </div>
+                </form>
+            </div>
+            <div class="column-info" id="terms_cond">
+                <ul>
+                    <li><a href="https://www.termsandcond.com/">Terms and conditions</a></li>
+                    <li><a href="https://www.copyright.com/">Cleaners © 2015</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

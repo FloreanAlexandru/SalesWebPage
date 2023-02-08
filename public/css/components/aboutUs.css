@@ -1,0 +1,53 @@
+.about-us{
+    height: 50%;
+    width: 100%;
+    top: 25%;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-us-title, .about-us-subtitle {
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.about-us-title.active{
+    animation: typeIn 3s 1 steps(40, end);
+}
+
+.about-us-subtitle.active{
+    animation: typeIn 3s 1 steps(40, end);
+}
+
+.rounded-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rounded-cards.active{
+    animation: fadeInAnimation 5s 1;
+}
+
+.rounded-cards .person-card{
+    margin-top: 5px;
+    padding: 2px 1px 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rounded-cards .person-card img{
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #000000;
+    box-shadow: rgba(0, 0, 0, 1) 0px 22px 70px 4px;
+}
+
+.person-card .card-title{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
